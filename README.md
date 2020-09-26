@@ -6,7 +6,7 @@ All assignments passed the hardest grading baseline.
 ---
 ### Task 1:
 + These were simple, introductory tasks. The other tasks were more involved.
-+ In task 1a the goal was to perform 10-fold cross validaiton (CV) for different choices of the regularisation parameter lambda when fitting a ridge regression model and compute the RMSE for each fold. Finally, the mean RMSE over all 10 folds is computed.
++ In task 1a the goal was to perform 10-fold cross validaiton (CV) for different choices of the regularisation parameter lambda when fitting a ridge regression model and then to compute the RMSE for each fold. Finally, the mean RMSE over all 10 folds is computed.
 + In task 1b the goal was to perform a feature transformation on data and then fit a lasso regression model.
 ---
 ### Task 2:
