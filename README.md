@@ -10,7 +10,7 @@ All assignments passed the hardest grading baseline.
 + In task 1b the goal was to perform a feature transformation on data and then fit a lasso regression model.
 ---
 ### Task 2:
-
++ This task dealt with medical data from patients (e.g. their Lactate, SaO2, EtCO2, etc. levels) and the goal was to make predictions on whether a medical test of a certain kind would have to be performed based on these measurements.
 + Before solving the subtasks, data imputation had to be performed because of missing values. The data was then also normalized to bring each of the different features to the same scale.
 + In subtask 1, the goal was to predict whether further  medical tests are required, with 0 meaning that no further tests are required and 1 meaning that at least one of a test of a particular kind is required. The labels which have to be predicted for this task are: LABEL_BaseExcess, LABEL_Fibrinogen, LABEL_AST, LABEL_Alkalinephos, LABEL_Bilirubin_total, LABEL_Lactate, LABEL_TroponinI, LABEL_SaO2, LABEL_Bilirubin_direct, LABEL_EtCO2. This subtask was solved using a One-vs-rest (OVR) classifier with sklearn's HistGradientBoostingClassifier. 
 + In subtask 2, the goal was to predict whether sepsis will occur, with 0 meaning that sepsis will not occur and 1 that it will occur. The label that has to be predicted is LABEL_Sepsis. This subtask was solved using sklearn's OneVsRestClassifier.
