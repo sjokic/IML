@@ -24,6 +24,6 @@ All assignments passed the hardest grading baseline.
 ---
 ### Task 4:
 
-+ The goal in this task was to predict, given a query triplet of images of food (A, B, C), 1 if A is more similar in taste to B and 0 if A is more similar in taste to C.
++ Given a query triplet of images of food (A, B, C), the goal in this task was to predict 1 if A is more similar in taste to B and 0 if A is more similar in taste to C.
 The task was solved using a triplet network (in particular it employed triplet loss), i.e. an identical neural network with shared weights was used to compute the embedding for A, B and  C and then evaluate the triplet loss function. In particular, the neural network architecture that was used to compute the embeddings consisted of 3 convolutional neural networks (CNNs) in parallel: two small CNNs to extract low res features and one deep CNN to capture the main features (which used the ResNet50 pre-trained model). The outputs of each of the CNNs were then concatenated and then normalized to produce the final embedding. This task was solved using TensorFlow.
 + The implementation was based on the paper ['Learning Fine-grained Image Similarity with Deep Ranking' by Jian Wang et al.](https://arxiv.org/abs/1404.4661)
