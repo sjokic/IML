@@ -1,5 +1,5 @@
 # IML
-Project assignments for the IML course @ ETHZ
+Project assignments for an introductory machine learning course @ ETHZ
 
 All assignments passed the hardest grading baseline.
 
